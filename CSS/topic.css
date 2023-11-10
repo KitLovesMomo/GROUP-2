@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@500&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/abstract-organic-lines-background_1017-26669.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699488000&semt=ais);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F4591;
+    padding: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+
+}
+
+.navi {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navi li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.navi a {
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.nav {
+    color: white;
+}
+
+.nav1 {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.navi .nav:hover {
+    background-color: white;
+    color: #1F4591;
+    border-radius: 5px;
+}
+
+.title {
+    padding: 15px 20px;
+    color: white;
+    background-color: #1F4591;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #1F4591;
+}
+.topics {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.topics .container {
+    background-color: #1F4591;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size:40px;
+    transition: transform .2s;
+    box-shadow: 0 0 10px #1F4591;
+}
+
+.topics .container:hover {
+    transform: scale(1.05);
+}
